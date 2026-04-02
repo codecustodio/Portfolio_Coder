@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles_p1.css">
+</head>
+<body>
+     <main>
+         <h1>My Portfolio</h1>
+    </main>
+    <header class="site-header">
+        <nav class="nav container">
+
+            <div id="theme-toggle">Toggle</div>
+            <a class="logo" href="#home">Oscar Custodio Jr.</a>
+            <button id="menu-toggle" aria-label="Toggle menu">Menu</button>
+
+            <ul id="nav-links" class="nav-links">
+                <li><a href="#home">Home</a></li>  
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <section id="home" class="Hero Section">
+                <div class="container">
+                    <h1>Hi, I am Oscar Custodio Jr.</h1>
+                    <p class="hero-role">Aspiring Web-Developer</p>
+                    <p>I build simple and useful web pages while learning frontend development.</p>
+                    <a class="btn" href="#projects">View My Work</a>
+                </div>
+            </section>
+
+            <!-- <div class="losangeles">
+                <img src=file:///Users/OrangeJuice/Desktop/Code/Projects/portfolio-site:03-2026/images:/BG_LA.jpg>
+            </div> -->
+
+            <section id="about" class="section">
+                <div class="container about-content">
+                    <img src="./images:/images:profile.jpg" alt="Calix Kent" height="300">
+                    <div>
+                        <h2>About Me</h2>
+                        <p>I am a student learning web development. I enjoy creating clean layouts and interactive user interfaces.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="section">
+                <div class="container">
+                    <h2>Skills</h2>
+                    <div class="skills-grid">
+                        <div class="skill-card">Film/TV/Photo Production</div>
+                        <div class="skill-card">Accounting</div>
+                        <div class="skill-card">Html</div>
+                        <div class="skill-card">CSS</div>
+                        <div class="skill-card">JavaScript</div>
+                        <div class="skill-card">Git</div>
+                        <div class="skill-card">Excel</div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="section">
+                <div class="container">
+                    <h2>Projects</h2>
+                    
+                    <div class="projects-list">
+                        <article class="project-card">
+                            <img src="images/project-1.png" alt="Screenshot of project one">
+                            <div class="project-body">
+                                <h3>To-Do List App</h3>
+                                <p>A simple app for adding and managing tasks.</p>
+                                <div class="project-links">
+                                    <a href="https://github.com/yourname/todo-app">GitHub</a>
+                                    <a href="https://example.com/todo-app">Live Demo</a>     
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="project-card">
+                            <img src="images/project-2.png" alt="Screenshot of project two">
+                            <div class="project-body">
+                                <h3>Weather Dashboard</h3>
+                                <p>Show current weather for a selected city</p>
+                                <div class="project-links">
+                                    <a href="https://github.com/yourname/weather-dashboard">GitHub</a>
+                                    <a href="https://example.com/weather-dashboard">Live Demo</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <div class="container">
+                    <h2>Contact</h2>
+                    <form id="contact-form" novalidate>
+                        <label for="name">Name</label>
+                        <input id="name" type="text" name="name" required>
+
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="email" required>
+                        
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+
+                        <button class="btn" type="submit">Submit</button>
+                        <p id="form-message"></p>
+                    </form>
+                </div>
+            </section>
+            
+        </nav>
+        <div class="skill-bar">
+            <div class="skill-fill" style="width: 80%;">CSS - 80%</div>
+        </div>
+    </header>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Oscar Custodio Jr.</p>
+            <div class="social-links">
+                <a href="https://github.com/oscarcustodiojr.">GitHub</a>
+                <a href="https://linkedin.com/in/oscarcustodiojr">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script_p1.js"></script>
+</body>
+</html>

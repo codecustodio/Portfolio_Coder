@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* 1. Base Styles  */
+body {
+    font-family: Arial, sans-serif;
+    color: #0f172a;
+    background-color: #f8fafc;
+    line-height: 1.6;
+}
+
+/* 2. Layout */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+/* 3. Sections */
+.hero { 
+    text-align: center; 
+}
+
+#home {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(196, 220, 10, 40%);
+}
+
+.project-card {
+    border: 1px solid #dbe4f0;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+    margin-bottom: 0.75rem;
+}
+
+.section {
+    padding: 48px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.7rem 1 rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #2563eb;
+    color: #ffffff;
+    font-weight: 700;
+    /* cursor: pointer; */
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+/* Need to center this? */
+/* .logo {
+    margin: 50px;
+} */
+
+img {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about{
+    border: 3px solid black;
+    margin-top: 50px;
+}
+
+#about img {
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-top: -20px;
+}
+
+#skills{
+    border: 3px solid black;
+    margin-top: 50px;
+}
+
+#projects{
+    border: 3px solid black;
+    margin-top: 50px; 
+}
+
+#contact{
+    margin-top: 50px;
+}
+
+/* #contact-form {
+  margin-top: 1rem;
+  max-width: 620px;
+} */
+
+/* .losangeles {
+    background-size: cover;
+    width: 100px;
+    height: -50px;
+} */
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 12px;
+}
+
+.btn:hover {
+    background-color: #1d4ed8;
+}
+
+.nav-links a:hover {
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+.project-card:hover {
+    border-color: #2563eb;
+}
+
+.site-footer {
+    margin-top: 2rem;
+    padding: 1.25rem 0;
+    border-top: 1px solid #dbe4f0;
+    text-align: center;
+}
+
+.social-links a {
+    margin-right: 1rem;
+    color: #2563eb;
+}
+
+main {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: inline-block;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-links.open {
+        display: block;
+    }
+
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+}
+
